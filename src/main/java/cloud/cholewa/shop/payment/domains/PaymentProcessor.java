@@ -8,10 +8,10 @@ import cloud.cholewa.shop.payment.ports.PaymentService;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
-public record PaymentProcessor(IdGenerator idGenerator,
-                               PaymentFeeCalculator paymentFeeCalculator,
-                               TimeProvider timeProvider,
-                               PaymentRepository paymentRepository) implements PaymentService {
+record PaymentProcessor(IdGenerator idGenerator,
+                        PaymentFeeCalculator paymentFeeCalculator,
+                        TimeProvider timeProvider,
+                        PaymentRepository paymentRepository) implements PaymentService {
 
 
     @Override
