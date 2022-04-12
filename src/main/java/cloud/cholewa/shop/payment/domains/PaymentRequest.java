@@ -1,4 +1,4 @@
-package cloud.cholewa.shop.domains;
+package cloud.cholewa.shop.payment.domains;
 
 import org.javamoney.moneta.FastMoney;
 

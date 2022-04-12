@@ -1,9 +1,9 @@
-package cloud.cholewa.shop.ports;
+package cloud.cholewa.shop.payment.ports;
 
 import cloud.cholewa.shop.commons.Page;
 import cloud.cholewa.shop.commons.ResultPage;
-import cloud.cholewa.shop.domains.Payment;
-import cloud.cholewa.shop.domains.PaymentStatus;
+import cloud.cholewa.shop.payment.domains.Payment;
+import cloud.cholewa.shop.payment.domains.PaymentStatus;
 
 import java.util.Optional;
 
